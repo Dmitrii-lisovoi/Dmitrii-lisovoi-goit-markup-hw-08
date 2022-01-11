@@ -63,6 +63,11 @@
   color: var(--address-tex-color);
 }
 
+.footer__link--contact:hover {
+  color: var(--accent-color);
+  transition: color var(--transition);
+}
+
 // Center part of footer
 
 .footer__wrapper-center {

@@ -1349,6 +1349,11 @@ button {
   color: var(--address-tex-color);
 }
 
+.footer__link--contact:hover {
+  color: var(--accent-color);
+  transition: color var(--transition);
+}
+
 .footer__wrapper-center {
   display: block;
   margin-right: auto;
