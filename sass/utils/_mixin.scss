@@ -1,0 +1,4 @@
+@mixin text($weight, $color) {
+  font-weight: 400;
+  color: $primary-shade-color;
+}

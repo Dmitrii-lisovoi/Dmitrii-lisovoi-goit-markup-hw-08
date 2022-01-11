@@ -1,0 +1,14 @@
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: -8px;
+
+  @media screen and (min-width: $tablet) {
+    justify-content: center;
+    align-items: center;
+  }
+}
+.filters__item {
+  margin: 8px 0 8px 8px;
+}
